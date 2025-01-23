@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nits Decor</title>
+    <!-- ---------- slick.min.css----------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- --------- theme.min.css---------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="shortcut icon" href="./assets/images/svg/logoImg.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <!-- navbar  -->
+            <div class="navbar_pos w_100  ">
+                <div class="container container_manual container_1768">
+                    <nav class="w_100 flex align_center justify_between pt_29 ">
+                        <div class="w_15">
+                            <a class="relative z_1" href="#">
+                                <img class="smlScreen_LogoSize" src="./assets/images/svg/logoImg.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="w_80 ff_lato flex justify_between align_center nav_links">
+                            <ol class="w_60 flex justify_between menu_on_smlScreen ">
+                                <li><a onclick="hideNav()" class="navbar_links" href="#">Home</a></li>
+                                <li><a onclick="hideNav()" class="navbar_links" href="#service">Services</a></li>
+                                <li><a onclick="hideNav()" class="navbar_links" href="#projects">Projects</a></li>
+                                <li><a onclick="hideNav()" class="navbar_links" href="#blogs">Blogs</a></li>
+                                <li><a onclick="hideNav()" class="navbar_links" href="#aboutUs">About Us</a></li>
+                                <li><a onclick="hideNav()" class="navbar_links" href="#contact">Contact</a></li>
+                            </ol>
+                            <div class="flex align_center  menu_on_smlScreen ">
+                                <button
+                                    class="ff_bentoga fw_thin fs_lsm line_17 clr_light p_17_41 border_white1 bg_transparent  mb_smlScreen cursor_pointer">Send
+                                    Enquiry</button>
+                                <div class="ff_lato ms_22  ">
+                                    <p class="fs_lmd clr_light fw_medium line_17 text_end  mb_smlScreen cursor_pointer">
+                                        info@nitsdecor.com
+                                    </p>
+                                    <div class="flex mt_7 align_center mb_smlScreen cursor_pointer">
+                                        <img class="me_8" src="./assets/images/svg/phone_img.svg" alt="phone">
+                                        <p class="fs_lmd clr_light fw_medium line_17 ">(+971)123456678 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="toggleMenu(this)" class="menu_bar relative z_1">
+                            <!-- <div onclick="showNav()" class="menu_bar relative z_1"> -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- header slider -->
+            <div class="slider ">
+                <div class="slide relative">
+                    <div class="text_overlay w_566">
+                        <h1 class="ff_bentoga fs_3xl fw_thin line_78 clr_light">Get a Designer Space You'll Love</h1>
+                        <p class="ff_lato  fw_medium  fs_xsm line_17 clr_sun">Lorem ipsum dolor sit amet, consectetur
+                            adipisci,</p>
+                    </div>
+                </div>
+                <div class="slide relative">
+                    <div class="text_overlay w_566">
+                        <h1 class="ff_bentoga fs_3xl fw_thin line_78 clr_light">Get a Designer Space You'll Love</h1>
+                        <p class="ff_lato  fw_medium  fs_xsm line_17 clr_sun">Lorem ipsum dolor sit amet, consectetur
+                            adipisci,</p>
+                    </div>
+                </div>
+                <div class="slide relative">
+                    <div class="text_overlay w_566">
+                        <h1 class="ff_bentoga fs_3xl fw_thin line_78 clr_light">Get a Designer Space You'll Love</h1>
+                        <p class="ff_lato  fw_medium  fs_xsm line_17 clr_sun">Lorem ipsum dolor sit amet, consectetur
+                            adipisci,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!-- interior design section -->
+            <section class="container container_manual ">
+                <div class="row mt_120 justify_ctr txt_center_sm col_reverse_sm ">
+                    <div class="col_10_sm1 col_4_2xl col_6_sm order_2">
+                        <p class="ff_lato fs_md fw_light line144 ">Welcome to Nits Decor, where elegance meets
+                            innovation. Based
+                            in the vibrant city of Dubai,
+                            we specialize in creating bespoke interior design solutions that transform spaces into works
+                            of art.
+                            With a passion for design and a commitment to excellence, our team of skilled designers and
+                            craftsmen brings your vision to life, whether it’s a cozy home, a sophisticated office, or a
+                            luxurious commercial space.
+                        </p>
+                        <h1 class="ff_bentoga fs_5xl fw_thin line75 mt_76 relative z_1">Interi<span
+                                class="clr_light clr_blk_Sml">or</span> Design</h1>
+                    </div>
+                    <div class="col_10_sm1 col_4_2xl col_6_sm order_3 ">
+                        <img class="w_100" src="./assets/images/png/interiorSecImg1.png" alt="img">
+                    </div>
+                    <div class="col_10_sm1 col_4_2xl col_6_sm  mt_20 order_1">
+                        <h1 class="ff_bentoga fw_thin fs_2xl line121 mb_12">Designing Dreams, Crafting Realities</h1>
+                        <button class="common_btn cursor_pointer">Send Enquiry</button>
+                        <img class="w_100 mt_46 " src="./assets//images/png/interiorSecImg2.png" alt="img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- our projects section -->
+            <section id="projects" class="container container_manual ">
+                <div class="mt_76">
+                    <h1 class="ff_bentoga fw_thin fs_2xl line121 mb_12 text_center"> Our Projects</h1>
+                    <ol class="flex justify_ctr gap_36 justify_between_xsm ">
+                        <li><button
+                                class="fs_sm fw_regular clr_sun ff_lato line161 cursor_pointer border_none bg_transparent project_links ">Recent</button>
+                        </li>
+                        <li><button
+                                class="fs_sm fw_regular clr_sun ff_lato line161 cursor_pointer border_none bg_transparent project_links ">Commercial</button>
+                        </li>
+                        <li><button
+                                class="fs_sm fw_regular clr_sun ff_lato line161 cursor_pointer border_none bg_transparent project_links ">Residential</button>
+                        </li>
+                        <li><button
+                                class="fs_sm fw_regular clr_sun ff_lato line161 cursor_pointer border_none bg_transparent project_links ">Renovation</button>
+                        </li>
+                    </ol>
+
+                    <div class="mt_200 row justify_ctr ">
+                        <div class="col_7 col_10_xsm">
+                            <div>
+                                <img class="w_100 img_obj" src="./assets/images/png/projects_img1.png" alt="img">
+                                <div class=" projectCardPadding projectCardBorder">
+                                    <p class="ff_bentoga fs_llg fw_thin line161 ">Family Sitting Space</p>
+                                    <button
+                                        class="mt_7 clr_golden fw_medium ff_lato fs_md bg_transparent border_bottom_ylw cursor_pointer">View
+                                        Projects
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_5 col_10_xsm mt_30_xsm">
+                            <div>
+                                <img class="w_100 img_obj" src="./assets/images/png/projects_img2.png" alt="img">
+                                <div class=" projectCardPadding projectCardBorder">
+                                    <p class="ff_bentoga fs_llg fw_thin line161 ">Dining Room</p>
+                                    <button
+                                        class="mt_7 clr_golden fw_medium ff_lato fs_md bg_transparent border_bottom_ylw cursor_pointer">View
+                                        Projects
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text_center mt_696">
+                        <button class="common_btn cursor_pointer">Send Enquiry</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- how it works section -->
+            <section id="aboutUs" class="container container_manual">
+                <div class="mt_284">
+                    <div class="flex justify_between align_center flex_col_sml">
+                        <h1 class="ff_bentoga fs_lxl line178 fw_thin capitalize txt_center_max992 ">How does it work?
+                        </h1>
+                        <p class="ff_lato fs_sm fw_regular line178 clr_ash capitalize w_60 txt_center_max992">Our
+                            reputation precedes us,
+                            as being purveyors of the most exclusive luxury living experiences in the region. Each
+                            property is exquisitely crafted so as to leave an indelible impression that doesn’t merely
+                            reflect international building standards but defines them.</p>
+                    </div>
+
+                    <div class="mt_80 row gap_y_80 justify_ctr">
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <h1 class="ff_bentoga fw_thin fs_4xl clr_sun line 198">01.</h1>
+                            <p class="ff_bentoga fw_thin line 198 fs_lg mt_50 capitalize">Meet Us</p>
+                            <p class="ff_bentoga fw_thin line 198 fs_lsm mt_23 capitalize">It all begins here</p>
+                            <p class="ff_lato fw_regular line148 fs_sm mt_21 capitalize letterSpace1">Let us know more
+                                about each
+                                other. We can meet over a cup of coffee or even online too. We'd like to know what
+                                you're looking for.</p>
+                        </div>
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <h1 class="ff_bentoga fw_thin fs_4xl clr_sun line 198">02.</h1>
+                            <p class="ff_bentoga fw_thin line 198 fs_lg mt_50 capitalize">Share your Expectations</p>
+                            <p class="ff_bentoga fw_thin line 198 fs_lsm mt_23 capitalize">We Get to Know Your Taste</p>
+                            <p class="ff_lato fw_regular line148 fs_sm mt_21 capitalize letterSpace1">While we get to
+                                know about you, we ensure to follow your preferences to create the complete designing
+                                experience just the way you want.</p>
+                        </div>
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <h1 class="ff_bentoga fw_thin fs_4xl clr_sun line 198">03.</h1>
+                            <p class="ff_bentoga fw_thin line 198 fs_lg mt_50 capitalize">Make a Mood Board</p>
+                            <p class="ff_bentoga fw_thin line 198 fs_lsm mt_23 capitalize">Personalised Designs</p>
+                            <p class="ff_lato fw_regular line148 fs_sm mt_21 capitalize letterSpace1">Before finalizing
+                                your dream designs, we prepare a mood board to help you visualize your new home and then
+                                discuss further enhancements.</p>
+                        </div>
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <h1 class="ff_bentoga fw_thin fs_4xl clr_sun line 198">04.</h1>
+                            <p class="ff_bentoga fw_thin line 198 fs_lg mt_50 capitalize">Scope of Work</p>
+                            <p class="ff_bentoga fw_thin line 198 fs_lsm mt_23 capitalize">Finalising the Details</p>
+                            <p class="ff_lato fw_regular line148 fs_sm mt_21 capitalize letterSpace1">Now when you have
+                                made up your mind, it is the time to finalise the scope of work and talk about the
+                                essentials – materials and finishes etc</p>
+                        </div>
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <h1 class="ff_bentoga fw_thin fs_4xl clr_sun line 198">05.</h1>
+                            <p class="ff_bentoga fw_thin line 198 fs_lg mt_50 capitalize">Seal the Deal</p>
+                            <p class="ff_bentoga fw_thin line 198 fs_lsm mt_23 capitalize">Stress-free process</p>
+                            <p class="ff_lato fw_regular line148 fs_sm mt_21 capitalize letterSpace1">Once finalised,
+                                you can seal the deal by paying a signing amount of 10%. Pay 50% of the order value to
+                                kickstart the process and the balance before handover.</p>
+                        </div>
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <h1 class="ff_bentoga fw_thin fs_4xl clr_sun line 198">06.</h1>
+                            <p class="ff_bentoga fw_thin line 198 fs_lg mt_50 capitalize">Execution</p>
+                            <p class="ff_bentoga fw_thin line 198 fs_lsm mt_23 capitalize">Speedy quality checks</p>
+                            <p class="ff_lato fw_regular line148 fs_sm mt_21 capitalize letterSpace1"> While we
+                                immediately begin work on your different orders, our quality control team keeps a strict
+                                check. We also keep you updated about the execution process.</p>
+                        </div>
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <h1 class="ff_bentoga fw_thin fs_4xl clr_sun line 198">07.</h1>
+                            <p class="ff_bentoga fw_thin line 198 fs_lg mt_50 capitalize">Move-in</p>
+                            <p class="ff_bentoga fw_thin line 198 fs_lsm mt_23 capitalize">It's all yours now</p>
+                            <p class="ff_lato fw_regular line148 fs_sm mt_21 capitalize letterSpace1"> Congratulations!
+                                We are done. You can now move-into your dream home.</p>
+                        </div>
+                        <div class="col_3_xl col_4_sm col_6_sml col_10_xsm">
+                            <div class="bgc_primary rounded_10 p_60_44 ">
+                                <h1 class="ff_bentoga fs_lxl fw_thin line_144 clr_light capitalize">Your happily ever
+                                    after begins
+                                    here...</h1>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- design service section -->
+            <section id="service" class="container container_manual">
+                <div class="mt_180 row gap_y_22 justify_ctr itemsCenterMax1100 txt_center_max992">
+                    <div class="col_4_sm col_6_sml col_10_xsm">
+                        <div class="bgc_sky rounded_10">
+                            <img class="w_100 img_obj" src="./assets/images/png/designService1.png" alt="img">
+                            <p class="ff_bentoga fw_thin fs_xl line166 clr_dark blueCardPadding">Apartment Design</p>
+                        </div>
+                    </div>
+                    <div class="col_4_sm col_6_sml col_10_xsm">
+                        <div class="bgc_sky rounded_10">
+                            <img class="w_100 img_obj" src="./assets/images/png/designService2.png" alt="img">
+                            <p class="ff_bentoga fw_thin fs_xl line166 clr_dark blueCardPadding">Villa Design Dubai</p>
+                        </div>
+                    </div>
+                    <div class="col_4_sm col_6_sml col_10_xsm">
+                        <div>
+                            <h1 class="ff_bentoga fs_lxl line127 fw_thin mt_30">Design Services Tailored to You</h1>
+                            <p class="ff_lato fs_sm fw_light line148 clr_primary mt_21">At Nits Decor, we offer a
+                                comprehensive range of interior design solutions to bring your dream space to life.
+                                Whether you're transforming your home or upgrading a commercial property, our expertise
+                                ensures exceptional results every time.</p>
+                            <div class="mt_30_blueCard">
+                                <button class="common_btn cursor_pointer">View All</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4_sm col_6_sml col_10_xsm">
+                        <div class="bgc_sky rounded_10">
+                            <img class="w_100 img_obj" src="./assets/images/png/designService3.png" alt="img">
+                            <p class="ff_bentoga fw_thin fs_xl line166 clr_dark blueCardPadding">Penthouse Interior</p>
+                        </div>
+                    </div>
+                    <div class="col_4_sm col_6_sml col_10_xsm">
+                        <div class="bgc_sky rounded_10">
+                            <img class="w_100 img_obj" src="./assets/images/png/designService4.png" alt="img">
+                            <p class="ff_bentoga fw_thin fs_xl line166 clr_dark blueCardPadding">Office Designing</p>
+                        </div>
+                    </div>
+                    <div class="col_4_sm col_6_sml col_10_xsm">
+                        <div class="bgc_sky rounded_10">
+                            <img class="w_100 img_obj" src="./assets/images/png/designService5.png" alt="img">
+                            <p class="ff_bentoga fw_thin fs_xl line166 clr_dark blueCardPadding">Restaurant Design</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- choosing right colors section -->
+            <section class="container container_manual">
+                <div class="mt_150 mt_80 colReverseMax1400 flex justify_between align_center ">
+                    <div class="w_35 txt_center_sm">
+                        <h1 class="ff_bentoga fs_lxl line_54 fw_thin mt_30">Choosing The Right Colors In Your Space!
+                        </h1>
+                        <p class="ff_lato fs_sm fw_light line148 clr_primary mt_7">Color plays a huge role in creating a
+                            mood and ambiance, the right decoration color scheme can set the tone of your space. To give
+                            you a basic design idea: you must know you can’t always go with only dark colors or light
+                            colors.
+                            Choosing blending colors will make a statement and let your interior stand out! Apart
+                            from this, getting decoration services from us will do wonders for your place. Step
+                            out to get the most beautiful color scheme selection for your buildings!
+                            Rooms have distinct purposes, and your color choices should reflect that. For
+                            instance, soothing blues are ideal for bedrooms, while vibrant yellows can energize
+                            a kitchen or workspace.</p>
+                        <div class="mt_40">
+                            <button class="common_btn cursor_pointer">Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex align_baseline justify_ctr flex_col_xsm gap_y_22">
+                            <img class="w_100 img_obj widthMaxLg " src="./assets//images/png/rightColorImgSml.png"
+                                alt="img">
+                            <img class="w_100 img_obj widthMaxLg ms_20"
+                                src="./assets//images/png/rightColorImgLarge.png" alt="img">
+                        </div>
+                    </div>
+            </section>
+
+            <!-- send enquiry section  -->
+            <section class="sendEnquiryBgImg flex align_center justify_ctr mt_150 mt_80 p_xsm">
+                <div class="container container_manual  text_center">
+                    <h1 class="ff_bentoga fs_lxl fw_thin line144 clr_secondary widthEnquirySec"> Let us create a
+                        masterpiece for you
+                        Elevate your space with timeless vintage elegance.</h1>
+                    <button
+                        class="ff_bentoga fw_thin fs_lsm line_17 clr_light p_17_41 border_white1 bg_transparent  mb_smlScreen cursor_pointer mt_40">Send
+                        Enquiry</button>
+                </div>
+            </section>
+
+            <!-- happy client design section -->
+            <section id="blogs" class="container container_manual">
+                <div class="mt_140">
+                    <div class="clientSlider w_100">
+                        <div class="clientSlide ">
+                            <div class="clientSlideWidth client_d_none">
+                                <img class="w_100" src="./assets//images/png/happyClientLeftImg2Attached.png"
+                                    alt="happyClientLeftImg2Attached">
+                            </div>
+                            <div class="clientSlideWidth ">
+                                <h1 class="ff_bentoga fs_lxl fw_thin line_54 text_center whiteSpaceNoWrap">Happy
+                                    Clients. Beautiful
+                                    Designs.</h1>
+                                <p class="ff_lato fs_lmd fw_medium line166 clr_ash text_center capitalize mt_65">
+                                    “Transforming
+                                    our cafe into a
+                                    vibrant, modern space was seamless thanks to your design expertise. The result
+                                    exceeded our expectations, and our customers love it!”</p>
+                                <div class="flex align_center gap_13 justify_ctr mt_90 ">
+                                    <img src="./assets/images/svg/happyClientSliderImgSml.svg" alt="clientImg">
+                                    <p class="ff_mulish fw_semibold fs_lg clr_primary ">James Bennett</p>
+                                </div>
+                                <div class="flex justify_ctr gap_22 mt_21">
+                                    <span class="slider_arrow_l cursor_pointer">
+                                        <svg width="54" height="53" viewBox="0 0 54 53" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26.7188" cy="26.7188" r="26.0156" stroke="#D9D9D9"
+                                                stroke-width="1.40625" />
+                                            <path
+                                                d="M13.5653 27.2159C13.2907 26.9413 13.2907 26.4962 13.5653 26.2216L18.04 21.7469C18.3146 21.4723 18.7598 21.4723 19.0343 21.7469C19.3089 22.0215 19.3089 22.4667 19.0343 22.7413L15.0569 26.7188L19.0343 30.6962C19.3089 30.9708 19.3089 31.416 19.0343 31.6906C18.7598 31.9652 18.3146 31.9652 18.04 31.6906L13.5653 27.2159ZM39.375 27.4219H14.0625V26.0156H39.375V27.4219Z"
+                                                fill="#8F8F8F" />
+                                        </svg>
+                                    </span>
+                                    <span class="slider_arrow_2 cursor_pointer">
+                                        <svg width="54" height="53" viewBox="0 0 54 53" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="27.2813" cy="26.7188" r="26.0156" stroke="#D9D9D9"
+                                                stroke-width="1.40625" />
+                                            <path
+                                                d="M40.4347 27.2159C40.7093 26.9413 40.7093 26.4962 40.4347 26.2216L35.96 21.7469C35.6854 21.4723 35.2402 21.4723 34.9657 21.7469C34.6911 22.0215 34.6911 22.4667 34.9657 22.7413L38.9431 26.7188L34.9657 30.6962C34.6911 30.9708 34.6911 31.416 34.9657 31.6906C35.2402 31.9652 35.6854 31.9652 35.96 31.6906L40.4347 27.2159ZM14.625 27.4219H39.9375V26.0156H14.625V27.4219Z"
+                                                fill="#8F8F8F" />
+                                        </svg>
+
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="clientSlideWidth client_d_none">
+                                <img class="w_100" src="./assets//images/png/happyClientRighttImg3Attached.png"
+                                    alt="happyClientRighttImg3Attached">
+                            </div>
+                        </div>
+
+                        <div class="clientSlide ">
+                            <div class="clientSlideWidth client_d_none">
+                                <img class="w_100" src="./assets//images/png/happyClientLeftImg2Attached.png"
+                                    alt="happyClientLeftImg2Attached">
+                            </div>
+                            <div class="clientSlideWidth ">
+                                <h1 class="ff_bentoga fs_lxl fw_thin line_54 text_center whiteSpaceNoWrap">Happy
+                                    Clients. Beautiful
+                                    Designs.</h1>
+                                <p class="ff_lato fs_lmd fw_medium line166 clr_ash text_center capitalize mt_65">
+                                    “Transforming
+                                    our cafe into a
+                                    vibrant, modern space was seamless thanks to your design expertise. The result
+                                    exceeded our expectations, and our customers love it!”</p>
+                                <div class="flex align_center gap_13 justify_ctr mt_90 ">
+                                    <img src="./assets/images/svg/happyClientSliderImgSml.svg" alt="clientImg">
+                                    <p class="ff_mulish fw_semibold fs_lg clr_primary ">James Bennett</p>
+                                </div>
+                                <div class="flex justify_ctr gap_22 mt_21">
+                                    <span class="slider_arrow_l cursor_pointer">
+                                        <svg width="54" height="53" viewBox="0 0 54 53" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26.7188" cy="26.7188" r="26.0156" stroke="#D9D9D9"
+                                                stroke-width="1.40625" />
+                                            <path
+                                                d="M13.5653 27.2159C13.2907 26.9413 13.2907 26.4962 13.5653 26.2216L18.04 21.7469C18.3146 21.4723 18.7598 21.4723 19.0343 21.7469C19.3089 22.0215 19.3089 22.4667 19.0343 22.7413L15.0569 26.7188L19.0343 30.6962C19.3089 30.9708 19.3089 31.416 19.0343 31.6906C18.7598 31.9652 18.3146 31.9652 18.04 31.6906L13.5653 27.2159ZM39.375 27.4219H14.0625V26.0156H39.375V27.4219Z"
+                                                fill="#8F8F8F" />
+                                        </svg>
+                                    </span>
+                                    <span class="slider_arrow_2 cursor_pointer">
+                                        <svg width="54" height="53" viewBox="0 0 54 53" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="27.2813" cy="26.7188" r="26.0156" stroke="#D9D9D9"
+                                                stroke-width="1.40625" />
+                                            <path
+                                                d="M40.4347 27.2159C40.7093 26.9413 40.7093 26.4962 40.4347 26.2216L35.96 21.7469C35.6854 21.4723 35.2402 21.4723 34.9657 21.7469C34.6911 22.0215 34.6911 22.4667 34.9657 22.7413L38.9431 26.7188L34.9657 30.6962C34.6911 30.9708 34.6911 31.416 34.9657 31.6906C35.2402 31.9652 35.6854 31.9652 35.96 31.6906L40.4347 27.2159ZM14.625 27.4219H39.9375V26.0156H14.625V27.4219Z"
+                                                fill="#8F8F8F" />
+                                        </svg>
+
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="clientSlideWidth client_d_none">
+                                <img class="w_100" src="./assets//images/png/happyClientRighttImg3Attached.png"
+                                    alt="happyClientRighttImg3Attached">
+                            </div>
+                        </div>
+
+                        <div class="clientSlide ">
+                            <div class="clientSlideWidth client_d_none">
+                                <img class="w_100" src="./assets//images/png/happyClientLeftImg2Attached.png"
+                                    alt="happyClientLeftImg2Attached">
+                            </div>
+                            <div class="clientSlideWidth ">
+                                <h1 class="ff_bentoga fs_lxl fw_thin line_54 text_center whiteSpaceNoWrap">Happy
+                                    Clients. Beautiful
+                                    Designs.</h1>
+                                <p class="ff_lato fs_lmd fw_medium line166 clr_ash text_center capitalize mt_65">
+                                    “Transforming
+                                    our cafe into a
+                                    vibrant, modern space was seamless thanks to your design expertise. The result
+                                    exceeded our expectations, and our customers love it!”</p>
+                                <div class="flex align_center gap_13 justify_ctr mt_90 ">
+                                    <img src="./assets/images/svg/happyClientSliderImgSml.svg" alt="clientImg">
+                                    <p class="ff_mulish fw_semibold fs_lg clr_primary ">James Bennett</p>
+                                </div>
+                                <div class="flex justify_ctr gap_22 mt_21">
+                                    <span class="slider_arrow_l cursor_pointer">
+                                        <svg width="54" height="53" viewBox="0 0 54 53" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26.7188" cy="26.7188" r="26.0156" stroke="#D9D9D9"
+                                                stroke-width="1.40625" />
+                                            <path
+                                                d="M13.5653 27.2159C13.2907 26.9413 13.2907 26.4962 13.5653 26.2216L18.04 21.7469C18.3146 21.4723 18.7598 21.4723 19.0343 21.7469C19.3089 22.0215 19.3089 22.4667 19.0343 22.7413L15.0569 26.7188L19.0343 30.6962C19.3089 30.9708 19.3089 31.416 19.0343 31.6906C18.7598 31.9652 18.3146 31.9652 18.04 31.6906L13.5653 27.2159ZM39.375 27.4219H14.0625V26.0156H39.375V27.4219Z"
+                                                fill="#8F8F8F" />
+                                        </svg>
+                                    </span>
+                                    <span class="slider_arrow_2 cursor_pointer">
+                                        <svg width="54" height="53" viewBox="0 0 54 53" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="27.2813" cy="26.7188" r="26.0156" stroke="#D9D9D9"
+                                                stroke-width="1.40625" />
+                                            <path
+                                                d="M40.4347 27.2159C40.7093 26.9413 40.7093 26.4962 40.4347 26.2216L35.96 21.7469C35.6854 21.4723 35.2402 21.4723 34.9657 21.7469C34.6911 22.0215 34.6911 22.4667 34.9657 22.7413L38.9431 26.7188L34.9657 30.6962C34.6911 30.9708 34.6911 31.416 34.9657 31.6906C35.2402 31.9652 35.6854 31.9652 35.96 31.6906L40.4347 27.2159ZM14.625 27.4219H39.9375V26.0156H14.625V27.4219Z"
+                                                fill="#8F8F8F" />
+                                        </svg>
+
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="clientSlideWidth client_d_none">
+                                <img class="w_100" src="./assets//images/png/happyClientRighttImg3Attached.png"
+                                    alt="happyClientRighttImg3Attached">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Get in touch form section -->
+            <section id="contact" class="container container_manual">
+                <div class="mt_120 flex flex_col_sml ">
+                    <div class="formWidth ">
+                        <h1 class="ff_bentoga fw_thin fs_lxl line_54 capitalize mb_32 txt_center_max992">Schedule a free
+                            designer
+                            consultation</h1>
+                        <img class="w_100" src="./assets/images/png/formSecImg.png" alt="img">
+                    </div>
+                    <div class="formWidth  bgc_primary formPadding rounded_10">
+                        <h1 class="ff_bentoga fs_lxl fw_thin line_54 clr_light mb_17">Get in touch</h1>
+
+                        <!-- <form id="myForm" class="formStyle ff_mulish flex flex_col gap_y_22" action="./formSubmit.html"
+                            target="_blank">
+                            <div class="flex justify_between flex_col_xsm gap_y_22xsm">
+                                <div class="w_50Form">
+                                    <input class="inputStyle" type="text" placeholder="first name" id="fname"
+                                        name="fname" required>
+                                </div>
+                                <div class="w_50Form">
+                                    <input class="inputStyle" type="text" placeholder="last name" id="lname"
+                                        name="lname" required>
+                                </div>
+                            </div>
+
+                            <input class="inputStyle" type="email" placeholder="Email Address" id="email" name="email"
+                                required>
+
+                            <input class="inputStyle" type="tel" placeholder="Phone" id="phone" name="phone" required>
+
+                            <div>
+                                <input class="inputStyle" type="text" placeholder="Connect with dubai, uAE" id="connect"
+                                    name="connect" required>
+                            </div>
+
+                            <textarea class="inputStyle" name="msg" id="msg" placeholder="Message"></textarea>
+
+                            <div><button onclick="submitForm()" class=" common_btn cursor_pointer">Submit</button>
+                            </div>
+
+                        </form> -->
+
+
+                        <form id="myForm" class="formStyle ff_mulish flex flex_col gap_y_22" action="javascript:void(0)"
+                       >
+                        <div class="flex justify_between flex_col_xsm gap_y_22xsm">
+                            <div class="w_50Form">
+                                <input class="inputStyle" type="text" placeholder="first name" id="fname"
+                                    name="fname" required>
+                            </div>
+                            <div class="w_50Form">
+                                <input class="inputStyle" type="text" placeholder="last name" id="lname"
+                                    name="lname" required>
+                            </div>
+                        </div>
+
+                        <input class="inputStyle" type="email" placeholder="Email Address" id="email" name="email"
+                            required>
+
+                        <input class="inputStyle" type="tel" placeholder="Phone" id="phone" name="phone" required>
+
+                        <div>
+                            <input class="inputStyle" type="text" placeholder="Connect with dubai, uAE" id="connect"
+                                name="connect" required>
+                        </div>
+
+                        <textarea class="inputStyle" name="msg" id="msg" placeholder="Message"></textarea>
+
+                        <div><button onclick="submitForm()" class=" common_btn cursor_pointer">Submit</button>
+                        </div>
+
+                    </form>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footerBg mt_120 ">
+            <div class="container container_manual ">
+                <div class=" text_center flex justify_ctr align_center relative z_1 footPadding ">
+                    <div class="w_80Foot">
+                        <a class="" href="#">
+                            <img src="./assets/images/svg/logoImg.svg" alt="img">
+                        </a>
+                        <p class=" mt_20_foot ff_lato fs_lsm fw_light line150 clr_light ">We work closely with clients
+                            to gain
+                            an understanding of your desires both philoso phical and practical et accusam et justo no
+                            sea takimata sanctus clita kasd.</p>
+
+                        <div class="w_60_foot mx_auto">
+                            <ol class=" flex justify_between gap_foot justify_xsmCenter flex_Wrap_xsm ff_lato mt_46">
+                                <li><a class="Footer_navbar_links" href="#">Home</a></li>
+                                <li><a class="Footer_navbar_links" href="aboutUs">About Us</a></li>
+                                <li><a class="Footer_navbar_links" href="">Portfolio</a></li>
+                                <li><a class="Footer_navbar_links" href="service">Services</a></li>
+                                <li><a class="Footer_navbar_links" href="blog">Our Blogs</a></li>
+                                <li><a class="Footer_navbar_links" href="">Gallery</a></li>
+                            </ol>
+                        </div>
+
+                        <div class="flex justify_ctr mt_50_foot">
+                            <div class=" flex gap_45 flex_Wrap_xsm gap_foot justify_xsmCenter ">
+                                <a target="_blank" href="https://www.facebook.com/">
+                                    <span>
+                                        <svg width="17" height="27" viewBox="0 0 17 27" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.785 2H11.3121C9.77689 2 8.30458 2.60983 7.21916 3.69536C6.1336 4.78087 5.52376 6.25315 5.52376 7.7883V11.2613H2.05078V15.8919H5.52376V25.1532H10.1544V15.8919H13.6274L14.785 11.2613H10.1544V7.7883C10.1544 7.48127 10.2764 7.18682 10.4935 6.96971C10.7105 6.75261 11.0051 6.63064 11.3121 6.63064H14.785V2Z"
+                                                stroke="white" stroke-width="2.66262" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span></a>
+                                <a target="_blank" href="https://www.x.com/"></a> <span>
+                                    <svg width="29" height="25" viewBox="0 0 29 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M27.4273 2.01168C27.4273 2.01168 25.0839 3.39607 23.7809 3.78846C23.0814 2.98427 22.1519 2.41429 21.118 2.15559C20.0841 1.8969 18.9958 1.96197 18.0001 2.34201C17.0044 2.72205 16.1493 3.39873 15.5508 4.28051C14.9521 5.1623 14.6388 6.20665 14.6531 7.27233V8.43362C12.6123 8.48653 10.5901 8.03392 8.76653 7.11607C6.94299 6.19822 5.37476 4.84364 4.20149 3.17297C4.20149 3.17297 -0.443676 13.6246 10.0079 18.2698C7.6163 19.8932 4.76722 20.7072 1.87891 20.5924C12.3305 26.3988 25.1047 20.5924 25.1047 7.23749C25.1037 6.91401 25.0726 6.59134 25.0118 6.27362C26.197 5.10477 27.4273 2.01168 27.4273 2.01168Z"
+                                            stroke="white" stroke-width="2.89415" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </span></a>
+                                <a target="_blank" href="https://www.instagram.com/"> <span>
+                                        <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.3873 19.0374C17.2289 19.0374 19.5325 16.7338 19.5325 13.8922C19.5325 11.0506 17.2289 8.74707 14.3873 8.74707C11.5458 8.74707 9.24219 11.0506 9.24219 13.8922C9.24219 16.7338 11.5458 19.0374 14.3873 19.0374Z"
+                                                stroke="white" stroke-width="2.66262" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M2.81055 19.0372V8.74688C2.81055 5.19489 5.69001 2.31543 9.24199 2.31543H19.5323C23.0843 2.31543 25.9638 5.19489 25.9638 8.74688V19.0372C25.9638 22.5892 23.0843 25.4686 19.5323 25.4686H9.24199C5.69001 25.4686 2.81055 22.5892 2.81055 19.0372Z"
+                                                stroke="white" stroke-width="2.89415" />
+                                            <path d="M21.4609 6.83074L21.4738 6.81641" stroke="white"
+                                                stroke-width="2.89415" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span></a>
+                                <a target="_blank" href="https://www.linkedin.com/"></a> <img
+                                    src="./assets/images/svg/Linkdin.svg" alt="img"></a>
+                            </div>
+                        </div>
+
+                        <div class="mt_50 footLine"></div>
+                        <p class="ff_lato fw_light fs_lsm clr_light mt_36">© 2025.All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+
+    <!-- jquery.min.js  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <!-- slick.min.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
